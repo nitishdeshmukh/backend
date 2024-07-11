@@ -1,0 +1,27 @@
+Step 1: create a new file and link it with github
+
+step 2: run command  ==> npm init
+
+step 3: create a new folder with name Public in current directory(intial directory)
+
+step 4: create a new folder with name temp in Public directory
+
+step 5: create a .gitkeep file in temp file to track this directory
+
+note : step 3, 4 & 5 is used only for temprory storege 
+
+step 6: create a .gitignore file using gitignore generator in current directory
+
+step 7: create a .env file in current directory
+
+step 8: create a new folder with name src
+
+step 9: create app.js, constant.js and index.js in src folder
+
+step 10: add "type": "module" in package.json
+
+step 11: run command ==> npm i -D nodemon 
+Note: 1) -D indicate dev dependencie .
+      2) Dev dependencies are those dependencies that we use during development but do not carry over to production.
+
+step 12: add "dev": "nodemon src/index.js" in package.json in scripts section
