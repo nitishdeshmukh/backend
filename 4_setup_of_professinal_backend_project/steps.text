@@ -20,8 +20,12 @@ step 9: create app.js, constant.js and index.js in src folder
 
 step 10: add "type": "module" in package.json
 
-step 11: run command ==> npm i -D nodemon 
+step 11: run command ==> npm i -D nodemon  in current directory
 Note: 1) -D indicate dev dependencie .
       2) Dev dependencies are those dependencies that we use during development but do not carry over to production.
 
 step 12: add "dev": "nodemon src/index.js" in package.json in scripts section
+
+step 13: create new folder with name controllers, db, middlewares, models, routes, and utils
+
+step 14: run command ==>npm i -D prettier in current directory
