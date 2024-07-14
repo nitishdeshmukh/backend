@@ -20,12 +20,38 @@ step 9: create app.js, constant.js and index.js in src folder
 
 step 10: add "type": "module" in package.json
 
-step 11: run command ==> npm i -D nodemon  in current directory
+step 11: run command ==> "npm i -D nodemon"  in current directory
 Note: 1) -D indicate dev dependencie .
       2) Dev dependencies are those dependencies that we use during development but do not carry over to production.
 
 step 12: add "dev": "nodemon src/index.js" in package.json in scripts section
 
-step 13: create new folder with name controllers, db, middlewares, models, routes, and utils
+step 13: create new folder with name controllers, db, middlewares, models, routes, and utils into src folder.
 
-step 14: run command ==>npm i -D prettier in current directory
+step 14: run command ==>"npm i -D prettier" in current directory
+
+step 15: create .prettierignore file in acttual directory.
+
+step 16: add 
+     /.vscode
+     /node_modules
+     ./dist
+
+     *.env
+     .env
+     .text
+in .prettierignore file.
+
+step 17: create .prettierrc file in acttual directory.
+
+step 18: add
+{
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "semi": true
+}
+in .prettierrc file.
+
+step 19: run cammand ==> "npm i mongoose express dotenv" in acttual directory.
